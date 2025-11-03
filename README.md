@@ -1,9 +1,9 @@
-# Where Do Artists Live?
+## Where Do Artists Live?
 **Exploring the geography of artistic occupations using ACS microdata and Tableau**
 
 ---
 
-## Overview
+### Overview
 This project uses 2022 American Community Survey (ACS) microdata (via IPUMS) to visualize where artists and other creative workers live across U.S. metropolitan areas.
 
 The analysis examines both:
@@ -17,7 +17,7 @@ The resulting Tableau dashboard enables users to explore artist location pattern
 
 ---
 
-## Data & Methods
+### Data & Methods
 - **Source:** 2022 ACS 5-year Public Use Microdata Sample (PUMS), approximately 17 million cases.  
 - **Platform:** Data cleaning and aggregation in R; visualization in Tableau.  
 - **Key Variables:**  
@@ -35,18 +35,18 @@ The resulting Tableau dashboard enables users to explore artist location pattern
 
 ---
 
-## Visualization
+### Visualization
 The Tableau dashboard includes interactive filters to:
 - Select an **artistic discipline** (e.g., Writers, Musicians, Designers)
 - Toggle between **absolute** and **relative** metro distributions
 
 A screenshot preview:
 
-![Arts Dashboard](images/Arts_dash_snip.png)
+![Arts Dashboard](Arts_dash_snip.png)
 
 ---
 
-## Reflections
+### Reflections
 This was my first large-scale ACS data project — an early exploration of data cleaning, aggregation, and visualization at scale. Future updates may include:
 - Trend analysis across multiple ACS waves
 - Integration with pandemic-era data
